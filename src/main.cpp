@@ -43,6 +43,7 @@ void setup() {
   startWiFi("");            // Paso 5. Inicializa el servicio de WiFi
   setupIoT();               // Paso 6. Inicializa el servicio de IoT
   hora = setTime();         // Paso 7. Ajusta el tiempo del dispositivo con servidores SNTP
+  Serial.println("Firmware version: v1.1.1"); // -- Muestra la version del firmware en el puerto serie
 }
 
 // Función loop
